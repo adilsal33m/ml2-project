@@ -1,0 +1,1487 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime+Unnormalized
+Subject: UCI Machine Learning Repository: Communities and Crime Unnormalized Data Set
+Date: Sat, 19 Nov 2022 11:38:08 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ----"
+
+
+------MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ----
+Content-Type: text/html
+Content-ID: <frame-8D0ACA0DCE18EA67820D2D5A401F0016@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime+Unnormalized
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+<title>UCI Machine Learning Repository: Communities and Crime Unnormalized =
+Data Set</title>
+
+<!-- Stylesheet link -->
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://archive.ics.uci.=
+edu/ml/assets/ml.css">
+
+
+
+</head>
+
+<body>
+
+
+<!-- SITE HEADER (INCLUDES LOGO AND SEARCH BOX) -->
+
+<table width=3D"100%" bgcolor=3D"#003366">
+<tbody><tr>
+	<td>
+		<span class=3D"normal"><a href=3D"https://archive.ics.uci.edu/ml/index.ht=
+ml" alt=3D"Home"><img src=3D"https://archive.ics.uci.edu/ml/assets/logo.gif=
+" border=3D"0"></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;<a href=3D"http://cml.ics.uci.edu/"><font color=3D"FFDD33">Center for Mac=
+hine Learning and Intelligent Systems</font></a></span>
+	</td>
+	<td width=3D"100%" valign=3D"top" align=3D"right">
+		<span class=3D"whitetext">
+		<a href=3D"https://archive.ics.uci.edu/ml/about.html">About</a>&nbsp;
+		<a href=3D"https://archive.ics.uci.edu/ml/citation_policy.html">Citation =
+Policy</a>&nbsp;
+		<a href=3D"https://archive.ics.uci.edu/ml/donation_policy.html">Donate a =
+Data Set</a>&nbsp;
+		<a href=3D"https://archive.ics.uci.edu/ml/contact.html">Contact</a>
+		</span>
+
+		<br>
+		<br>
+		<!-- Search Google -->
+
+		<form method=3D"GET" action=3D"https://www.google.com/custom">
+		<input type=3D"text" name=3D"q" size=3D"30" maxlength=3D"255" value=3D"">
+		<input type=3D"submit" name=3D"sa" value=3D"Search">
+	=09
+	=09
+		<br>
+		<input type=3D"radio" name=3D"sitesearch" value=3D"ics.uci.edu" checked=
+=3D""> <span class=3D"whitetext"><font size=3D"1">Repository</font></span>
+		<input type=3D"radio" name=3D"sitesearch" value=3D""> <span class=3D"whit=
+etext"><font size=3D"1">Web</font></span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href=3D"https://www.google.com/search"><img src=3D"https://www.google.=
+com/logos/Logo_25blk.gif" border=3D"0" alt=3D"Google" align=3D"middle" heig=
+ht=3D"27"></a>
+		<br>
+		</form>
+		<!-- Search Google -->
+
+
+		<span class=3D"whitetext"><a href=3D"https://archive.ics.uci.edu/ml/datas=
+ets.php"><font size=3D"3" color=3D"#FFDD33"><b>View
+ALL Data Sets</b></font></a></span>
+		<br>
+	</td>
+</tr>
+</tbody></table>
+
+
+<br>
+
+<div style=3D"background-color:#6E4100; color:white; padding:20px; margin-b=
+ottom:8px">
+	  <span style=3D"float:right; cursor:pointer; margin-left: 8px; font-size:=
+x-large; line-height:16px"><strong>=C3=97</strong></span>
+	  Check out the <a target=3D"_blank" href=3D"https://archive-beta.ics.uci.=
+edu/" style=3D"color:white">beta version</a> of the new UCI Machine Learnin=
+g Repository we are currently testing! <a target=3D"_blank" href=3D"https:/=
+/archive-beta.ics.uci.edu/ml/contact" style=3D"color:white">Contact us</a> =
+if you have any issues, questions, or concerns. <a target=3D"_blank" href=
+=3D"https://archive-beta.ics.uci.edu/" style=3D"color:white">Click here to =
+try out the new site</a>.
+</div>
+
+<table width=3D"100%" border=3D"0" cellpadding=3D"2"><tbody><tr><td>
+
+   <table><tbody><tr>
+     <td valign=3D"top">
+	<p>
+	<span class=3D"heading"><b>Communities and Crime Unnormalized Data Set</b>=
+</span>
+	<br><span class=3D"normal"><i><font size=3D"4">Download</font></i>: <a hre=
+f=3D"https://archive.ics.uci.edu/ml/machine-learning-databases/00211/"><fon=
+t style=3D"BACKGROUND-COLOR: #FFFFAA" size=3D"4">Data Folder</font></a>, <a=
+ href=3D"https://archive.ics.uci.edu/ml/datasets/Communities+and+Crime+Unno=
+rmalized#"><font style=3D"BACKGROUND-COLOR: #FFFFAA" size=3D"4">Data Set De=
+scription</font></a></span></p>
+
+	<p class=3D"normal"><b>Abstract</b>: Communities in the US. Data combines =
+socio-economic data from the '90 Census, law enforcement data from the 1990=
+ Law Enforcement Management and Admin Stats survey, and crime data from the=
+ 1995 FBI UCR</p>
+     </td>
+     <td> </td>
+   </tr></tbody></table>
+
+<table border=3D"1" cellpadding=3D"6">
+	<tbody><tr>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Data Set Characteristics:&=
+nbsp;&nbsp;</b></p></td>
+		<td><p class=3D"normal">Multivariate</p></td>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Number of Instances:</b></=
+p></td>
+		<td><p class=3D"normal">2215</p></td>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Area:</b></p></td>
+		<td><p class=3D"normal">Social</p></td>
+	</tr>
+
+	<tr>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Attribute Characteristics:=
+</b></p></td>
+		<td><p class=3D"normal">Real</p></td>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Number of Attributes:</b><=
+/p></td>
+		<td><p class=3D"normal">147</p></td>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Date Donated</b></p></td>
+		<td><p class=3D"normal">2011-03-02</p></td>
+	</tr>
+	<tr>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Associated Tasks:</b></p><=
+/td>
+		<td><p class=3D"normal">Regression</p></td>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Missing Values?</b></p></t=
+d>
+		<td><p class=3D"normal">Yes</p></td>
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Number of Web Hits:</b></p=
+></td>
+		<td><p class=3D"normal">176232</p></td>
+	</tr>
+	<!--
+	<tr>
+
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Highest Percentage Achieve=
+d:&nbsp;&nbsp;</b></p></td>
+		<td><p class=3D"normal">N/A</p></td>
+	</tr>
+	-->
+</tbody></table>
+
+
+<br>
+
+<p class=3D"small-heading"><b>Source:</b></p>
+<p class=3D"normal">  -- Creator: Michael Redmond (redmond 'at' lasalle.edu=
+); Computer Science; La Salle University; Philadelphia, PA, 19141, USA
+<br>    -- culled from 1990 US Census, 1995 US FBI Uniform Crime Report, 19=
+90 US Law Enforcement Management and Administrative Statistics Survey, avai=
+lable from ICPSR at U of Michigan.
+<br>  -- Donor: Michael Redmond (redmond 'at' lasalle.edu); Computer Scienc=
+e; La Salle University; Philadelphia, PA, 19141, USA</p>
+
+<br>
+
+<p class=3D"small-heading"><b>Data Set Information:</b></p>
+<p class=3D"normal">The source datasets needed to be combined via programmi=
+ng. Many variables are included so that algorithms that select or learn wei=
+ghts for attributes could be tested. However, clearly unrelated attributes =
+were not included; attributes were picked if there was any plausible connec=
+tion to crime (N=3D125), plus the crime variables which are potential depen=
+dent variables. The variables included in the dataset involve the community=
+, such as the percent of the population considered urban, and the median fa=
+mily income, and involving law enforcement, such as per capita number of po=
+lice officers, and percent of officers assigned to drug units. The crime at=
+tributes (N=3D18) that could be predicted are the 8 crimes considered 'Inde=
+x Crimes' by the FBI)(Murders, Rape, Robbery, .... ), per capita (actually =
+per 100,000 population) versions of each, and Per Capita Violent Crimes and=
+ Per Capita Nonviolent Crimes).=20
+<br> =20
+<br>A limitation was that the LEMAS survey was of the police departments wi=
+th at least 100 officers, plus a random sample of smaller departments. For =
+our purposes, communities not found in both census and crime datasets were =
+omitted. Many communities are missing LEMAS data.
+<br>
+<br>The per capita crimes variables were calculated using population values=
+ included in the 1995 FBI data (which differ from the 1990 Census values).=
+=20
+<br>
+<br>The per capita violent crimes variable was calculated using population =
+and the sum of crime variables considered violent crimes in the United Stat=
+es: murder, rape, robbery, and assault. There was apparently some controver=
+sy in some states concerning the counting of rapes. These resulted in missi=
+ng values for rape, which resulted in missing values for per capita violent=
+ crime. Many of these omitted communities were from the midwestern USA (Min=
+nesota, Illinois, and Michigan have many of these). =20
+<br> =20
+<br>The per capita nonviolent crime variable was calculated using the sum o=
+f crime variables considered non-violent crimes in the United States: burgl=
+aries, larcenies, auto thefts and arsons. (There are many other types of cr=
+imes, these only include FBI 'Index Crimes')
+<br>
+<br>Some further pre-processing of the dataset must be done. Choose the des=
+irable dependent variable from among the 18 possible. It would not be inter=
+esting or appropriate to predict total crime (e.g. violent crime) while inc=
+luding subtotals (e.g. murders) as independent variables. There are also id=
+entifying variables (community name, county code, community code) that are =
+not predictive, and would get in the way of some algorithms. Weka's Unsuper=
+vised Attribute Remove Filter can be used to remove unwanted attributes.
+<br>
+<br>The FBI notes that use of this data to evaluate communities is over-sim=
+plistic, as many relevant factors are not included. For one example, commun=
+ities with large numbers of visitors will have higher per capita crime (mea=
+sured by residents) than communities with fewer visitors, other things bein=
+g equal.
+<br> =20
+<br></p>
+
+<br>
+
+<p class=3D"small-heading"><b>Attribute Information:</b></p>
+<p class=3D"normal">(125 predictive, 4 non-predictive, 18 potential goal)
+<br>  -- communityname: Community name - not predictive - for information o=
+nly (string)
+<br>  -- state: US state (by 2 letter postal abbreviation)(nominal)=20
+<br>  -- countyCode: numeric code for county - not predictive, and many mis=
+sing values (numeric)
+<br>  -- communityCode: numeric code for community - not predictive and man=
+y missing values (numeric)=20
+<br>  -- fold: fold number for non-random 10 fold cross validation, potenti=
+ally useful for debugging, paired tests - not predictive (numeric - integer=
+)
+<br>=20
+<br>  -- population: population for community: (numeric - expected to be in=
+teger)
+<br>  -- householdsize: mean people per household (numeric - decimal)
+<br>  -- racepctblack: percentage of population that is african american (n=
+umeric - decimal)
+<br>  -- racePctWhite: percentage of population that is caucasian (numeric =
+- decimal)
+<br>  -- racePctAsian: percentage of population that is of asian heritage (=
+numeric - decimal)
+<br>  -- racePctHisp: percentage of population that is of hispanic heritage=
+ (numeric - decimal)
+<br>  -- agePct12t21: percentage of population that is 12-21 in age (numeri=
+c - decimal)
+<br>  -- agePct12t29: percentage of population that is 12-29 in age (numeri=
+c - decimal)
+<br>  -- agePct16t24: percentage of population that is 16-24 in age (numeri=
+c - decimal)
+<br>  -- agePct65up: percentage of population that is 65 and over in age (n=
+umeric - decimal)
+<br>  -- numbUrban: number of people living in areas classified as urban (n=
+umeric - expected to be integer)
+<br>  -- pctUrban: percentage of people living in areas classified as urban=
+ (numeric - decimal)
+<br>  -- medIncome: median household income (numeric - may be integer)
+<br>  -- pctWWage: percentage of households with wage or salary income in 1=
+989 (numeric - decimal)
+<br>  -- pctWFarmSelf: percentage of households with farm or self employmen=
+t income in 1989 (numeric - decimal)
+<br>  -- pctWInvInc: percentage of households with investment / rent income=
+ in 1989 (numeric - decimal)
+<br>  -- pctWSocSec: percentage of households with social security income i=
+n 1989 (numeric - decimal)
+<br>  -- pctWPubAsst: percentage of households with public assistance incom=
+e in 1989 (numeric - decimal)
+<br>  -- pctWRetire: percentage of households with retirement income in 198=
+9 (numeric - decimal)
+<br>  -- medFamInc: median family income (differs from household income for=
+ non-family households) (numeric - may be integer)
+<br>  -- perCapInc: per capita income (numeric - decimal)
+<br>  -- whitePerCap: per capita income for caucasians (numeric - decimal)
+<br>  -- blackPerCap: per capita income for african americans (numeric - de=
+cimal)
+<br>  -- indianPerCap: per capita income for native americans (numeric - de=
+cimal)
+<br>  -- AsianPerCap: per capita income for people with asian heritage (num=
+eric - decimal)
+<br>  -- OtherPerCap: per capita income for people with 'other' heritage (n=
+umeric - decimal)
+<br>  -- HispPerCap: per capita income for people with hispanic heritage (n=
+umeric - decimal)
+<br>  -- NumUnderPov: number of people under the poverty level (numeric - e=
+xpected to be integer)
+<br>  -- PctPopUnderPov: percentage of people under the poverty level (nume=
+ric - decimal)
+<br>  -- PctLess9thGrade: percentage of people 25 and over with less than a=
+ 9th grade education (numeric - decimal)
+<br>  -- PctNotHSGrad: percentage of people 25 and over that are not high s=
+chool graduates (numeric - decimal)
+<br>  -- PctBSorMore: percentage of people 25 and over with a bachelors deg=
+ree or higher education (numeric - decimal)
+<br>  -- PctUnemployed: percentage of people 16 and over, in the labor forc=
+e, and unemployed (numeric - decimal)
+<br>  -- PctEmploy: percentage of people 16 and over who are employed (nume=
+ric - decimal)
+<br>  -- PctEmplManu: percentage of people 16 and over who are employed in =
+manufacturing (numeric - decimal)
+<br>  -- PctEmplProfServ: percentage of people 16 and over who are employed=
+ in professional services (numeric - decimal)
+<br>  -- PctOccupManu: percentage of people 16 and over who are employed in=
+ manufacturing (numeric - decimal)   #### No longer sure of difference from=
+ PctEmplManu - may include unemployed manufacturing workers ####
+<br>  -- PctOccupMgmtProf: percentage of people 16 and over who are employe=
+d in management or professional occupations (numeric - decimal)
+<br>  -- MalePctDivorce: percentage of males who are divorced (numeric - de=
+cimal)
+<br>  -- MalePctNevMarr: percentage of males who have never married (numeri=
+c - decimal)
+<br>  -- FemalePctDiv: percentage of females who are divorced (numeric - de=
+cimal)
+<br>  -- TotalPctDiv: percentage of population who are divorced (numeric - =
+decimal)
+<br>  -- PersPerFam: mean number of people per family (numeric - decimal)
+<br>  -- PctFam2Par: percentage of families (with kids) that are headed by =
+two parents (numeric - decimal)
+<br>  -- PctKids2Par: percentage of kids in family housing with two parents=
+ (numeric - decimal)
+<br>  -- PctYoungKids2Par: percent of kids 4 and under in two parent househ=
+olds (numeric - decimal)
+<br>  -- PctTeen2Par: percent of kids age 12-17 in two parent households (n=
+umeric - decimal)
+<br>  -- PctWorkMomYoungKids: percentage of moms of kids 6 and under in lab=
+or force (numeric - decimal)
+<br>  -- PctWorkMom: percentage of moms of kids under 18 in labor force (nu=
+meric - decimal)
+<br>  -- NumKidsBornNeverMar: number of kids born to never married (numeric=
+ - expected to be integer)
+<br>  -- PctKidsBornNeverMar: percentage of kids born to never married (num=
+eric - decimal)
+<br>  -- NumImmig: total number of people known to be foreign born (numeric=
+ - expected to be integer)
+<br>  -- PctImmigRecent: percentage of _immigrants_ who immigated within la=
+st 3 years (numeric - decimal)
+<br>  -- PctImmigRec5: percentage of _immigrants_ who immigated within last=
+ 5 years (numeric - decimal)
+<br>  -- PctImmigRec8: percentage of _immigrants_ who immigated within last=
+ 8 years (numeric - decimal)
+<br>  -- PctImmigRec10: percentage of _immigrants_ who immigated within las=
+t 10 years (numeric - decimal)
+<br>  -- PctRecentImmig: percent of _population_ who have immigrated within=
+ the last 3 years (numeric - decimal)
+<br>  -- PctRecImmig5: percent of _population_ who have immigrated within t=
+he last 5 years (numeric - decimal)
+<br>  -- PctRecImmig8: percent of _population_ who have immigrated within t=
+he last 8 years (numeric - decimal)
+<br>  -- PctRecImmig10: percent of _population_ who have immigrated within =
+the last 10 years (numeric - decimal)
+<br>  -- PctSpeakEnglOnly: percent of people who speak only English (numeri=
+c - decimal)
+<br>  -- PctNotSpeakEnglWell: percent of people who do not speak English we=
+ll (numeric - decimal)
+<br>  -- PctLargHouseFam: percent of family households that are large (6 or=
+ more) (numeric - decimal)
+<br>  -- PctLargHouseOccup: percent of all occupied households that are lar=
+ge (6 or more people) (numeric - decimal)
+<br>  -- PersPerOccupHous: mean persons per household (numeric - decimal)
+<br>  -- PersPerOwnOccHous: mean persons per owner occupied household (nume=
+ric - decimal)
+<br>  -- PersPerRentOccHous: mean persons per rental household (numeric - d=
+ecimal)
+<br>  -- PctPersOwnOccup: percent of people in owner occupied households (n=
+umeric - decimal)
+<br>  -- PctPersDenseHous: percent of persons in dense housing (more than 1=
+ person per room) (numeric - decimal)
+<br>  -- PctHousLess3BR: percent of housing units with less than 3 bedrooms=
+ (numeric - decimal)
+<br>  -- MedNumBR: median number of bedrooms (numeric - decimal)
+<br>  -- HousVacant: number of vacant households (numeric - expected to be =
+integer)
+<br>  -- PctHousOccup: percent of housing occupied (numeric - decimal)
+<br>  -- PctHousOwnOcc: percent of households owner occupied (numeric - dec=
+imal)
+<br>  -- PctVacantBoarded: percent of vacant housing that is boarded up (nu=
+meric - decimal)
+<br>  -- PctVacMore6Mos: percent of vacant housing that has been vacant mor=
+e than 6 months (numeric - decimal)
+<br>  -- MedYrHousBuilt: median year housing units built (numeric - may be =
+integer)
+<br>  -- PctHousNoPhone: percent of occupied housing units without phone (i=
+n 1990, this was rare!) (numeric - decimal)
+<br>  -- PctWOFullPlumb: percent of housing without complete plumbing facil=
+ities (numeric - decimal)
+<br>  -- OwnOccLowQuart: owner occupied housing - lower quartile value (num=
+eric - decimal)
+<br>  -- OwnOccMedVal: owner occupied housing - median value (numeric - dec=
+imal)
+<br>  -- OwnOccHiQuart: owner occupied housing - upper quartile value (nume=
+ric - decimal)
+<br>  -- OwnOccQrange: owner occupied housing - difference between upper qu=
+artile and lower quartile values (numeric - decimal)
+<br>  -- RentLowQ: rental housing - lower quartile rent (numeric - decimal)
+<br>  -- RentMedian: rental housing - median rent (Census variable H32B fro=
+m file STF1A) (numeric - decimal)
+<br>  -- RentHighQ: rental housing - upper quartile rent (numeric - decimal=
+)
+<br>  -- RentQrange: rental housing - difference between upper quartile and=
+ lower quartile rent (numeric - decimal)
+<br>  -- MedRent: median gross rent (Census variable H43A from file STF3A -=
+ includes utilities) (numeric - decimal)
+<br>  -- MedRentPctHousInc: median gross rent as a percentage of household =
+income (numeric - decimal)
+<br>  -- MedOwnCostPctInc: median owners cost as a percentage of household =
+income - for owners with a mortgage (numeric - decimal)
+<br>  -- MedOwnCostPctIncNoMtg: median owners cost as a percentage of house=
+hold income - for owners without a mortgage (numeric - decimal)
+<br>  -- NumInShelters: number of people in homeless shelters (numeric - ex=
+pected to be integer)
+<br>  -- NumStreet: number of homeless people counted in the street (numeri=
+c - expected to be integer)
+<br>  -- PctForeignBorn: percent of people foreign born (numeric - decimal)
+<br>  -- PctBornSameState: percent of people born in the same state as curr=
+ently living (numeric - decimal)
+<br>  -- PctSameHouse85: percent of people living in the same house as in 1=
+985 (5 years before) (numeric - decimal)
+<br>  -- PctSameCity85: percent of people living in the same city as in 198=
+5 (5 years before) (numeric - decimal)
+<br>  -- PctSameState85: percent of people living in the same state as in 1=
+985 (5 years before) (numeric - decimal)
+<br>  -- LemasSwornFT: number of sworn full time police officers (numeric -=
+ expected to be integer)
+<br>  -- LemasSwFTPerPop: sworn full time police officers per 100K populati=
+on (numeric - decimal)
+<br>  -- LemasSwFTFieldOps: number of sworn full time police officers in fi=
+eld operations (on the street as opposed to administrative etc) (numeric - =
+expected to be integer)
+<br>  -- LemasSwFTFieldPerPop: sworn full time police officers in field ope=
+rations (on the street as opposed to administrative etc) per 100K populatio=
+n (numeric - decimal)
+<br>  -- LemasTotalReq: total requests for police (numeric - expected to be=
+ integer)
+<br>  -- LemasTotReqPerPop: total requests for police per 100K popuation (n=
+umeric - decimal)
+<br>  -- PolicReqPerOffic: total requests for police per police officer (nu=
+meric - decimal)
+<br>  -- PolicPerPop: police officers per 100K population (numeric - decima=
+l)
+<br>  -- RacialMatchCommPol: a measure of the racial match between the comm=
+unity and the police force. High values indicate proportions in community a=
+nd police force are similar (numeric - decimal)
+<br>  -- PctPolicWhite: percent of police that are caucasian (numeric - dec=
+imal)
+<br>  -- PctPolicBlack: percent of police that are african american (numeri=
+c - decimal)
+<br>  -- PctPolicHisp: percent of police that are hispanic (numeric - decim=
+al)
+<br>  -- PctPolicAsian: percent of police that are asian (numeric - decimal=
+)
+<br>  -- PctPolicMinor: percent of police that are minority of any kind (nu=
+meric - decimal)
+<br>  -- OfficAssgnDrugUnits: number of officers assigned to special drug u=
+nits (numeric - expected to be integer)
+<br>  -- NumKindsDrugsSeiz: number of different kinds of drugs seized (nume=
+ric - expected to be integer)
+<br>  -- PolicAveOTWorked: police average overtime worked (numeric - decima=
+l)
+<br>  -- LandArea: land area in square miles (numeric - decimal)
+<br>  -- PopDens: population density in persons per square mile (numeric - =
+decimal)
+<br>  -- PctUsePubTrans: percent of people using public transit for commuti=
+ng (numeric - decimal)
+<br>  -- PolicCars: number of police cars (numeric - expected to be integer=
+)
+<br>  -- PolicOperBudg: police operating budget (numeric - may be integer)
+<br>  -- LemasPctPolicOnPatr: percent of sworn full time police officers on=
+ patrol (numeric - decimal)
+<br>  -- LemasGangUnitDeploy: gang unit deployed (numeric - integer - but r=
+eally nominal - 0 means NO, 10 means YES,  5 means Part Time)
+<br>  -- LemasPctOfficDrugUn: percent of officers assigned to drug units (n=
+umeric - decimal)
+<br>  -- PolicBudgPerPop: police operating budget per population (numeric -=
+ decimal)
+<br>
+<br>  -- murders: number of murders in 1995 (numeric - expected to be integ=
+er) potential GOAL attribute (to be predicted)
+<br>  -- murdPerPop: number of murders per 100K population (numeric - decim=
+al) potential GOAL attribute (to be predicted)
+<br>  -- rapes: number of rapes in 1995 (numeric - expected to be integer) =
+potential GOAL attribute (to be predicted)
+<br>  -- rapesPerPop: number of rapes per 100K population  (numeric - decim=
+al) potential GOAL attribute (to be predicted)
+<br>  -- robberies: number of robberies in 1995  (numeric - expected to be =
+integer) potential GOAL attribute (to be predicted)
+<br>  -- robbbPerPop: number of robberies per 100K population  (numeric - d=
+ecimal) potential GOAL attribute (to be predicted)
+<br>  -- assaults: number of assaults in 1995  (numeric - expected to be in=
+teger) potential GOAL attribute (to be predicted)
+<br>  -- assaultPerPop: number of assaults per 100K population  (numeric - =
+decimal) potential GOAL attribute (to be predicted)
+<br>  -- burglaries: number of burglaries in 1995  (numeric - expected to b=
+e integer) potential GOAL attribute (to be predicted)
+<br>  -- burglPerPop: number of burglaries per 100K population  (numeric - =
+decimal) potential GOAL attribute (to be predicted)
+<br>  -- larcenies: number of larcenies in 1995  (numeric - expected to be =
+integer) potential GOAL attribute (to be predicted)
+<br>  -- larcPerPop: number of larcenies per 100K population  (numeric - de=
+cimal) potential GOAL attribute (to be predicted)
+<br>  -- autoTheft: number of auto thefts in 1995  (numeric - expected to b=
+e integer) potential GOAL attribute (to be predicted)
+<br>  -- autoTheftPerPop: number of auto thefts per 100K population  (numer=
+ic - decimal) potential GOAL attribute (to be predicted)
+<br>  -- arsons: number of arsons in 1995  (numeric - expected to be intege=
+r) potential GOAL attribute (to be predicted)
+<br>  -- arsonsPerPop: number of arsons per 100K population  (numeric - dec=
+imal) potential GOAL attribute (to be predicted)
+<br>  -- ViolentCrimesPerPop: total number of violent crimes per 100K popua=
+tion (numeric - decimal) GOAL attribute (to be predicted)
+<br>  -- nonViolPerPop: total number of non-violent crimes per 100K popuati=
+on (numeric - decimal) potential GOAL attribute (to be predicted)
+<br>
+<br>Summary Statistics:
+<br>variable,Minimum,Maximum,Mean,Standard Deviation,Correlation w/ ViolPer=
+Pop,Median,Mode,Missing
+<br>pop,10005,7322564,53117.9842,204620.2529,0.212353809,22792,12361,0
+<br>perHoush,1.6,5.28,2.707327314,0.334119654,-0.020110177,2.66,2.6,0
+<br>pctBlack,0,96.67,9.33510158,14.2471563,0.628367756,2.87,0.24,0
+<br>pctWhite,2.68,99.63,83.97981941,16.41908022,-0.676848823,90.35,98.04,0
+<br>pctAsian,0.03,57.46,2.67020316,4.473843444,0.031949477,1.23,0.41,0
+<br>pctHisp,0.12,95.29,7.950176072,14.58983204,0.253596415,2.18,0.78,0
+<br>pct12-21,4.58,54.4,14.44583747,4.518622844,0.023535103,13.62,13.62,0
+<br>pct12-29,9.38,70.51,27.64483973,6.181517075,0.105908765,26.78,26.78,0
+<br>pct16-24,4.64,63.62,13.97514221,5.970746729,0.045251915,12.54,11.61,0
+<br>pct65up,1.66,52.77,11.83639278,4.777565216,0.055637064,11.73,11.06,0
+<br>persUrban,0,7322564,47734.72009,205606.6933,0.21384036,18041,0,0
+<br>pctUrban,0,100,70.46530926,44.08027532,0.086294263,100,100,0
+<br>medIncome,8866,123625,33984.69616,13424.68001,-0.397407452,31441,27095,=
+0
+<br>pctWwage,31.68,96.76,78.31275847,7.950672435,-0.289829747,78.61,85.12,0
+<br>pctWfarm,0,6.53,0.881841986,0.689005635,-0.148357317,0.69,0.54,0
+<br>pctWdiv,5.81,89.04,43.75093454,12.78792465,-0.557786505,42.88,41.65,0
+<br>pctWsocsec,4.81,76.39,26.40941761,8.295604161,0.107881101,26.59,21.51,0
+<br>pctPubAsst,0.18,44.82,6.801444695,4.700334848,0.563107116,5.61,2.27,0
+<br>pctRetire,3.46,45.51,15.96900226,4.622553011,-0.098964807,15.65,13.14,0
+<br>medFamIncome,10447,139008,39857.05508,14251.20603,-0.411864109,36678,30=
+546,0
+<br>perCapInc,5237,63302,15603.5246,6281.558523,-0.315255977,14101,11252,0
+<br>whitePerCap,5472,68850,16567.69842,6346.840251,-0.185898177,15073,12735=
+,0
+<br>blackPerCap,0,212120,11541.74944,9232.102062,-0.209243037,9777,0,0
+<br>NAperCap,0,480000,12229.19142,14853.83618,-0.060250637,9895,0,0
+<br>asianPerCap,0,106165,14227.98962,9881.266395,-0.128086386,12250,0,0
+<br>otherPerCap,0,137000,9442.765131,7926.466713,-0.103288444,8186,0,1
+<br>hispPerCap,0,54648,11018.99819,5884.063446,-0.219349786,9721,0,0
+<br>persPoverty,78,1384994,7590.853273,39361.46001,0.240253072,2142,470,0
+<br>pctPoverty,0.64,58,11.62053725,8.600352277,0.505349223,9.33,3.26,0
+<br>pctLowEdu,0.2,49.89,9.186645598,6.66670296,0.371421768,7.74,5.78,0
+<br>pctNotHSgrad,1.46,73.66,22.30511964,10.98951654,0.46759552,21.38,11.27,=
+0
+<br>pctCollGrad,1.63,79.18,23.05687585,12.68721342,-0.299897539,19.65,14.2,=
+0
+<br>pctUnemploy,1.32,31.23,6.045241535,2.89561824,0.483440771,5.45,4.36,0
+<br>pctEmploy,24.82,84.67,62.02161174,8.31204498,-0.31764382,62.44,62.6,0
+<br>pctEmployMfg,2.05,50.03,18.22890745,8.099280979,-0.04712343,17.3,25.38,=
+0
+<br>pctEmployProfServ,8.69,62.67,24.53229797,6.659470242,-0.064554813,23.39=
+,21.52,0
+<br>pctOccupManu,1.37,44.27,13.81916479,6.430263859,0.283898507,13.15,16.52=
+,0
+<br>pctOccupMgmt,6.48,64.97,28.2092009,9.326123364,-0.324430512,26.24,28.31=
+,0
+<br>pctMaleDivorc,2.13,20.08,9.12758465,2.802747328,0.510455756,9.15,10.82,=
+0
+<br>pctMaleNevMar,12.06,76.6,30.68351693,8.127990901,0.271229742,29,26.78,0
+<br>pctFemDivorc,3.35,23.92,12.32530023,3.262612867,0.537302801,12.52,14.36=
+,0
+<br>pctAllDivorc,2.83,22.23,10.81251467,3.000883481,0.536548564,10.9,11.77,=
+0
+<br>persPerFam,2.29,4.64,3.129697517,0.240742507,0.149955382,3.1,3.13,0
+<br>pct2Par,22.97,93.6,74.05912867,10.52595184,-0.698640874,75.03,72.16,0
+<br>pctKids2Par,18.3,92.58,71.22725508,12.04504833,-0.728058986,72.53,63.25=
+,0
+<br>pctKids-4w2Par,8.7,100,81.86542212,12.26373565,-0.658436367,83.99,100,0
+<br>pct12-17w2Par,20.2,97.34,75.52178781,10.36526212,-0.655627787,76.92,77.=
+49,0
+<br>pctWorkMom-6,24.42,87.97,60.54264108,8.008936744,-0.02162507,60.71,63.4=
+8,0
+<br>pctWorkMom-18,41.95,89.37,68.85479458,6.679959744,-0.146173218,69.23,65=
+.64,0
+<br>kidsBornNevrMarr,0,527557,2141.418962,14692.58284,0.240337327,352,139,0
+<br>pctKidsBornNevrMarr,0,27.35,3.115498871,3.127681493,0.738089083,2.04,0.=
+97,0
+<br>numForeignBorn,20,2082931,6277.273589,55419.65383,0.144585649,1024,147,=
+0
+<br>pctFgnImmig-3,0,64.29,13.525693,9.780097693,0.156688654,12.26,0,0
+<br>pctFgnImmig-5,0,76.16,20.42128668,12.41035515,0.201445794,19.08,0,0
+<br>pctFgnImmig-8,0,80.81,27.54418059,14.36881288,0.236607959,26.72,0,0
+<br>pctFgnImmig-10,0,88,34.73392777,16.32732237,0.281536984,34.79,0,0
+<br>pctImmig-3,0,13.71,1.099124153,1.595766262,0.215616823,0.5,0,0
+<br>pctImmig-5,0,19.93,1.697462754,2.46105956,0.232900674,0.75,0,0
+<br>pctImmig-8,0,25.34,2.307503386,3.286647928,0.23889175,1.04,0,0
+<br>pctImmig-10,0,32.63,2.943760722,4.246468259,0.250865298,1.31,0,0
+<br>pctSpeakOnlyEng,6.15,98.98,87.07499323,14.07608745,-0.219031839,92.18,9=
+3.57,0
+<br>pctNotSpeakEng,0,38.33,2.405792325,4.210367661,0.27243614,0.92,0.44,0
+<br>pctLargHousFam,0.96,34.87,5.38661851,3.794309411,0.341601121,4.28,3.71,=
+0
+<br>pctLargHous,0.44,30.87,3.91578781,3.175770454,0.257215583,3.05,2.98,0
+<br>persPerOccupHous,1.58,4.52,2.615841986,0.315646341,-0.017700909,2.57,2.=
+44,0
+<br>persPerOwnOccup,1.61,4.48,2.74048307,0.297420849,-0.099169625,2.71,2.65=
+,0
+<br>persPerRenterOccup,1.55,4.73,2.367137698,0.391805778,0.240564095,2.29,2=
+.17,0
+<br>pctPersOwnOccup,13.93,97.24,66.36945372,14.18258845,-0.507329566,65.91,=
+63.79,0
+<br>pctPopDenseHous,0.05,59.49,4.132437923,5.599131346,0.395855647,2.34,1.3=
+1,0
+<br>pctSmallHousUnits,3.06,95.34,45.40534086,13.77834736,0.454469731,46.39,=
+53.15,0
+<br>medNumBedrm,1,4,2.640632054,0.512686001,-0.347149961,3,3,0
+<br>houseVacant,36,172768,1748.368849,6503.866478,0.289690649,558,246,0
+<br>pctHousOccup,37.47,99,92.93397291,5.04073584,-0.256836226,94.21,95.38,0
+<br>pctHousOwnerOccup,16.86,96.49,63.36829797,13.9700567,-0.45535904,62.83,=
+56.17,0
+<br>pctVacantBoarded,0,39.89,2.778523702,3.592396207,0.479910148,1.66,0,0
+<br>pctVacant6up,3.12,82.13,34.77388713,13.91146771,0.030768767,34.1,37.5,0
+<br>medYrHousBuilt,1939,1987,1962.623476,11.16655501,-0.111201128,1964,1939=
+,0
+<br>pctHousWOphone,0,23.88,4.289823928,4.088174777,0.473717673,2.85,0,0
+<br>pctHousWOplumb,0,5.33,0.425273138,0.426188232,0.311226836,0.32,0,0
+<br>ownHousLowQ,14999,500001,88695.80226,66670.78153,-0.194912005,65500,340=
+00,0
+<br>ownHousMed,19500,500001,113097.5233,81906.36228,-0.17822542,82800,50000=
+1,0
+<br>ownHousUperQ,28200,500001,145318.2578,99030.91382,-0.166029142,106700,5=
+00001,0
+<br>ownHousQrange,0,331000,56622.45553,39106.49804,-0.086578248,43400,28100=
+,0
+<br>rentLowQ,99,1001,329.9665914,144.1384609,-0.245708342,307,252,0
+<br>rentMed,120,1001,428.537246,170.7066437,-0.232797807,397,316,0
+<br>rentUpperQ,182,1001,527.2528217,199.29078,-0.223893683,486,1001,0
+<br>rentQrange ,0,803,197.2862302,85.20568803,-0.110281171,171,139,0
+<br>medGrossRent,192,1001,501.4663657,169.2717347,-0.231754244,467,1001,0
+<br>medRentpctHousInc,14.9,35.1,26.29810384,2.979297132,0.315536838,26.1,24=
+.7,0
+<br>medOwnCostpct,14,32.7,20.99015801,2.987621666,0.061058949,21,22.6,0
+<br>medOwnCostPctWO,10.1,23.4,13.01020316,1.419678674,0.063296009,12.8,11.8=
+,0
+<br>persEmergShelt,0,23383,66.95349887,564.253149,0.19494198,0,0,0
+<br>persHomeless,0,10447,17.8234763,245.4525529,0.136446046,0,0,0
+<br>pctForeignBorn,0.18,60.4,7.340302483,8.418475989,0.193229615,4.31,2.97,=
+0
+<br>pctBornStateResid,6.75,93.14,61.5396298,16.75006116,-0.070943862,64.49,=
+74.45,0
+<br>pctSameHouse-5,11.83,78.56,51.53859594,10.51792598,-0.14008735,52.17,54=
+.85,0
+<br>pctSameCounty-5,27.95,96.59,77.41107901,10.87818569,0.082634597,79.49,8=
+1.47,0
+<br>pctSameState-5,32.83,99.9,88.11186456,7.287836465,-0.006663834,90.03,92=
+.69,0
+<br>numPolice,65,25655,499.1982507,1681.472251,0.194219827,173,100,1872
+<br>policePerPop,29.4,3437.23,246.4909621,273.7991617,0.073197363,196.01,#N=
+/A,1872
+<br>policeField,14,22496,432.5597668,1493.708385,0.186477279,152,94,1872
+<br>policeFieldPerPop,19.21,3290.62,210.8447813,235.4788145,0.065928304,170=
+.27,183.22,1872
+<br>policeCalls,2100,8328470,252404.9883,689449.7817,0.230023206,90000,5000=
+0,1872
+<br>policCallPerPop,2704.8,1926281.5,120651.7189,148211.3422,0.14854896,910=
+34.6,#N/A,1872
+<br>policCallPerOffic,20.8,2162.5,523.658309,307.8390067,0.145798061,443.2,=
+422.6,1872
+<br>policePerPop2,29.4,3437.2,246.493586,273.7984086,0.073203166,196,171.5,=
+1872
+<br>racialMatch,42.15,100,85.4996793,10.94131216,-0.469374164,87.93,100,187=
+2
+<br>pctPolicWhite,1.6,100,82.5158309,15.33261214,-0.392584252,86.18,100,187=
+2
+<br>pctPolicBlack,0,67.31,9.263294461,11.02142376,0.513568853,5,0,1872
+<br>pctPolicHisp,0,98.4,5.459766764,10.60453332,0.056080974,2.04,0,1872
+<br>pctPolicAsian,0,18.57,0.681282799,1.706344058,0.072778715,0,0,1872
+<br>pctPolicMinority,0,98.4,15.2422449,14.82675626,0.416418453,11.37,0,1872
+<br>officDrugUnits,0,1773,26.28862974,100.8219209,0.166934688,12,6,1872
+<br>numDiffDrugsSeiz,1,15,8.816326531,2.836390802,0.115940631,9,9,1872
+<br>policAveOT,0,634.7,119.1142857,92.49518559,0.010162351,98.7,0,1872
+<br>landArea,0.9,3569.8,27.41995485,109.8226001,0.075697852,13.7,4.9,0
+<br>popDensity,10,44229.9,2783.835034,2828.993341,0.256966815,2027.3,3217.7=
+,0
+<br>pctUsePubTrans,0,54.33,3.041124153,4.91291686,0.190478991,1.22,0,0
+<br>policCarsAvail,20,3187,185.4781341,318.5428335,0.313164478,86,55,1872
+<br>policOperBudget,2380215,1617293056,32176019.34,110456627.5,0.195267289,=
+11164110,8000000,1872
+<br>pctPolicPatrol,10.85,99.94,87.13093294,10.34961235,-0.093114808,89.58,9=
+3.07,1872
+<br>gangUnit,0,10,4.285714286,4.064537838,0.109156269,5,0,1872
+<br>pctOfficDrugUnit,0,48.44,0.980162528,2.877127691,0.318474028,0,0,0
+<br>policBudgetPerPop,15260.4,2422367,153577.8712,203040.8861,0.056100531,1=
+14582,#N/A,1872
+<br>murders,0,1946,7.764785553,58.16646847,0.248259306,1,0,0
+<br>murdPerPop,0,91.09,5.859295711,9.156828742,0.671541352,2.17,0,0
+<br>rapes,0,2818,28.04633782,105.6161353,0.336087881,7,0,208
+<br>rapesPerPop,0,401.35,36.25848032,34.23974957,0.581533276,26.92,0,208
+<br>robberies,0,86001,237.9521229,2250.720788,0.208547391,19,1,1
+<br>robbbPerPop,0,2264.13,162.6125971,234.4866243,0.828574083,74.8,0,1
+<br>assaults,0,62778,326.5281562,1987.947941,0.301016534,56,12,13
+<br>assaultPerPop,0,4932.5,378.0046049,438.2385994,0.945565838,226.525,0,13
+<br>burglaries,2,99207,761.2368897,3111.702756,0.316504514,205,79,3
+<br>burglPerPop,16.92,11881.02,1033.430203,763.3544416,0.698552626,822.715,=
+728.93,3
+<br>larcenies,10,235132,2137.629295,7600.573464,0.2950221,747,547,3
+<br>larcPerPop,77.86,25910.55,3372.97915,1901.316145,0.509410495,3079.51,46=
+31.1,3
+<br>autoTheft,1,112464,516.6925859,3258.164244,0.244925811,75,16,3
+<br>autoTheftPerPop,6.55,4968.59,473.9656284,504.6660256,0.636484339,302.35=
+5,213.62,3
+<br>arsons,0,5119,30.90772128,180.1252481,0.232824758,5,0,91
+<br>arsonsPerPop,0,436.37,32.15368173,39.24090028,0.416718515,21.08,0,91
+<br>violentPerPop,0,4877.06,589.0789218,614.7845182,1,374.06,223.06,221
+<br>nonViolPerPop,116.79,27119.76,4908.241804,2739.708901,0.675374243,4425.=
+45,4295.96,97
+<br>
+<br>Statistics for nominal State variable:
+<br>State,Count
+<br>AK,3
+<br>AL,43
+<br>AR,25
+<br>AZ,20
+<br>CA,279
+<br>CO,25
+<br>CT,71
+<br>DC,1
+<br>DE,1
+<br>FL,90
+<br>GA,37
+<br>IA,20
+<br>ID,7
+<br>IL,40
+<br>IN,48
+<br>KS,1
+<br>KY,26
+<br>LA,22
+<br>MA,123
+<br>MD,12
+<br>ME,17
+<br>MI,108
+<br>MN,66
+<br>MO,42
+<br>MS,20
+<br>NC,46
+<br>ND,8
+<br>NH,21
+<br>NJ,211
+<br>NM,10
+<br>NV,5
+<br>NY,46
+<br>OH,111
+<br>OK,36
+<br>OR,31
+<br>PA,101
+<br>RI,26
+<br>SC,28
+<br>SD,9
+<br>TN,35
+<br>TX,162
+<br>UT,24
+<br>VA,33
+<br>VT,4
+<br>WA,40
+<br>WI,60
+<br>WV,14
+<br>WY,7
+<br>
+<br>Distribution of the main Goal Variable (Violent Crimes per Population):=
+=20
+<br>Range	Frequency (On boundary goes in the lower bin; e.g. exactly 200 go=
+es in 100-200)=20
+<br>0,1
+<br>1-100,285
+<br>100-200,306
+<br>200-300,265
+<br>300-400,185
+<br>400-500,151
+<br>500-600,131
+<br>600-700,100
+<br>700-800,77
+<br>800-900,72
+<br>900-1000,61
+<br>1000-1100,38
+<br>1100-1200,33
+<br>1200-1300,50
+<br>1300-1400,35
+<br>1400-1500,30
+<br>1500-1600,28
+<br>1600-1700,28
+<br>1700-1800,14
+<br>1800-1900,12
+<br>1900-2000,14
+<br>More,78
+<br>
+<br>
+<br>.arff header for weka:
+<br>
+<br>@relation crimeunnormalized
+<br>
+<br>@attribute communityname string
+<br>@attribute State {AK,AL,AR,AZ,CA,CO,CT,DC,DE,FL,GA,IA,ID,IL,IN,KS,KY,LA=
+,MA,MD,ME,MI,MN,MO,MS,NC,ND,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA=
+,VT,WA,WI,WV,WY}
+<br>@attribute countyCode numeric
+<br>@attribute communityCode numeric
+<br>@attribute fold numeric
+<br>@attribute pop numeric=20
+<br>@attribute perHoush numeric=20
+<br>@attribute pctBlack numeric=20
+<br>@attribute pctWhite numeric=20
+<br>@attribute pctAsian numeric=20
+<br>@attribute pctHisp numeric=20
+<br>@attribute pct12-21 numeric=20
+<br>@attribute pct12-29 numeric=20
+<br>@attribute pct16-24 numeric=20
+<br>@attribute pct65up numeric=20
+<br>@attribute persUrban numeric=20
+<br>@attribute pctUrban numeric=20
+<br>@attribute medIncome numeric=20
+<br>@attribute pctWwage numeric=20
+<br>@attribute pctWfarm numeric=20
+<br>@attribute pctWdiv numeric=20
+<br>@attribute pctWsocsec numeric=20
+<br>@attribute pctPubAsst numeric=20
+<br>@attribute pctRetire numeric=20
+<br>@attribute medFamIncome numeric=20
+<br>@attribute perCapInc numeric=20
+<br>@attribute whitePerCap numeric=20
+<br>@attribute blackPerCap numeric=20
+<br>@attribute NAperCap numeric=20
+<br>@attribute asianPerCap numeric=20
+<br>@attribute otherPerCap numeric=20
+<br>@attribute hispPerCap numeric=20
+<br>@attribute persPoverty numeric=20
+<br>@attribute pctPoverty numeric=20
+<br>@attribute pctLowEdu numeric=20
+<br>@attribute pctNotHSgrad numeric=20
+<br>@attribute pctCollGrad numeric=20
+<br>@attribute pctUnemploy numeric=20
+<br>@attribute pctEmploy numeric=20
+<br>@attribute pctEmployMfg numeric=20
+<br>@attribute pctEmployProfServ numeric=20
+<br>@attribute pctOccupManu numeric=20
+<br>@attribute pctOccupMgmt numeric=20
+<br>@attribute pctMaleDivorc numeric=20
+<br>@attribute pctMaleNevMar numeric=20
+<br>@attribute pctFemDivorc numeric=20
+<br>@attribute pctAllDivorc numeric=20
+<br>@attribute persPerFam numeric=20
+<br>@attribute pct2Par numeric=20
+<br>@attribute pctKids2Par numeric=20
+<br>@attribute pctKids-4w2Par numeric=20
+<br>@attribute pct12-17w2Par numeric=20
+<br>@attribute pctWorkMom-6 numeric=20
+<br>@attribute pctWorkMom-18 numeric=20
+<br>@attribute kidsBornNevrMarr numeric=20
+<br>@attribute pctKidsBornNevrMarr numeric=20
+<br>@attribute numForeignBorn numeric=20
+<br>@attribute pctFgnImmig-3 numeric=20
+<br>@attribute pctFgnImmig-5 numeric=20
+<br>@attribute pctFgnImmig-8 numeric=20
+<br>@attribute pctFgnImmig-10 numeric=20
+<br>@attribute pctImmig-3 numeric=20
+<br>@attribute pctImmig-5 numeric=20
+<br>@attribute pctImmig-8 numeric=20
+<br>@attribute pctImmig-10 numeric=20
+<br>@attribute pctSpeakOnlyEng numeric=20
+<br>@attribute pctNotSpeakEng numeric=20
+<br>@attribute pctLargHousFam numeric=20
+<br>@attribute pctLargHous numeric=20
+<br>@attribute persPerOccupHous numeric=20
+<br>@attribute persPerOwnOccup numeric=20
+<br>@attribute persPerRenterOccup numeric=20
+<br>@attribute pctPersOwnOccup numeric=20
+<br>@attribute pctPopDenseHous numeric=20
+<br>@attribute pctSmallHousUnits numeric=20
+<br>@attribute medNumBedrm numeric=20
+<br>@attribute houseVacant numeric=20
+<br>@attribute pctHousOccup numeric=20
+<br>@attribute pctHousOwnerOccup numeric=20
+<br>@attribute pctVacantBoarded numeric=20
+<br>@attribute pctVacant6up numeric=20
+<br>@attribute medYrHousBuilt numeric=20
+<br>@attribute pctHousWOphone numeric=20
+<br>@attribute pctHousWOplumb numeric=20
+<br>@attribute ownHousLowQ numeric=20
+<br>@attribute ownHousMed numeric=20
+<br>@attribute ownHousUperQ numeric=20
+<br>@attribute ownHousQrange numeric=20
+<br>@attribute rentLowQ numeric=20
+<br>@attribute rentMed numeric=20
+<br>@attribute rentUpperQ numeric=20
+<br>@attribute rentQrange numeric=20
+<br>@attribute medGrossRent numeric=20
+<br>@attribute medRentpctHousInc numeric=20
+<br>@attribute medOwnCostpct numeric=20
+<br>@attribute medOwnCostPctWO numeric=20
+<br>@attribute persEmergShelt numeric=20
+<br>@attribute persHomeless numeric=20
+<br>@attribute pctForeignBorn numeric=20
+<br>@attribute pctBornStateResid numeric=20
+<br>@attribute pctSameHouse-5 numeric=20
+<br>@attribute pctSameCounty-5 numeric=20
+<br>@attribute pctSameState-5 numeric=20
+<br>@attribute numPolice numeric=20
+<br>@attribute policePerPop numeric=20
+<br>@attribute policeField numeric=20
+<br>@attribute policeFieldPerPop numeric=20
+<br>@attribute policeCalls numeric=20
+<br>@attribute policCallPerPop numeric=20
+<br>@attribute policCallPerOffic numeric=20
+<br>@attribute policePerPop2 numeric=20
+<br>@attribute racialMatch numeric=20
+<br>@attribute pctPolicWhite numeric=20
+<br>@attribute pctPolicBlack numeric=20
+<br>@attribute pctPolicHisp numeric=20
+<br>@attribute pctPolicAsian numeric=20
+<br>@attribute pctPolicMinority numeric=20
+<br>@attribute officDrugUnits numeric=20
+<br>@attribute numDiffDrugsSeiz numeric=20
+<br>@attribute policAveOT numeric=20
+<br>@attribute landArea numeric=20
+<br>@attribute popDensity numeric=20
+<br>@attribute pctUsePubTrans numeric=20
+<br>@attribute policCarsAvail numeric=20
+<br>@attribute policOperBudget numeric=20
+<br>@attribute pctPolicPatrol numeric=20
+<br>@attribute gangUnit numeric=20
+<br>@attribute pctOfficDrugUnit numeric=20
+<br>@attribute policBudgetPerPop numeric=20
+<br>@attribute murders numeric=20
+<br>@attribute murdPerPop numeric=20
+<br>@attribute rapes numeric=20
+<br>@attribute rapesPerPop numeric=20
+<br>@attribute robberies numeric=20
+<br>@attribute robbbPerPop numeric=20
+<br>@attribute assaults numeric=20
+<br>@attribute assaultPerPop numeric=20
+<br>@attribute burglaries numeric=20
+<br>@attribute burglPerPop numeric=20
+<br>@attribute larcenies numeric=20
+<br>@attribute larcPerPop numeric=20
+<br>@attribute autoTheft numeric=20
+<br>@attribute autoTheftPerPop numeric=20
+<br>@attribute arsons numeric=20
+<br>@attribute arsonsPerPop numeric=20
+<br>@attribute violentPerPop numeric=20
+<br>@attribute nonViolPerPop numeric=20
+<br>
+<br>@data
+<br></p>
+
+<br>
+
+<p class=3D"small-heading"><b>Relevant Papers:</b></p>
+<p class=3D"normal">Past Usage
+<br>  1. [Redmond and Highley 2009] Redmond, M., and Highley, T., Empirical=
+ Analysis of Case-Editing Approaches for Numeric Prediction. In Internation=
+al Joint Conference on Computer, Information, and Systems Sciences and Engi=
+neering (CISSE) subconference International Conference on Systems, Computin=
+g Sciences and Software Engineering (SCSS). University of Bridgeport, CT, D=
+ecember 2009.=20
+<br>    -- All numeric data was normalized (0-1), ViolentCrimesPerPop was p=
+redicted (all other crime attributes were eliminated)
+<br>    -- Best mean absolute error obtained was .096 (on normalized data)
+<br>  2. [Buczak and Gifford 2010] Buczak, A. L. and Gifford, C. M., Fuzzy =
+Association Rule Mining for Community Crime Pattern Discovery. In Workshop =
+on Intelligence and Security Informatics at 16th Conference on Knowledge Di=
+scovery and Data Mining (ISI-KDD-2010). Washington DC. July 2010.
+<br>    -- Data was further processed
+<br>
+<br></p>
+
+<br>
+
+
+<!-- OLD CODE:
+
+<p class=3D"small-heading"><b>Papers That Cite This Data Set<sup>1</sup>:</=
+b></p>
+<img src=3D"../assets/rexa.jpg" />
+<p class=3D"normal">N/A</p>
+
+-->
+
+
+
+<br>
+
+<p class=3D"small-heading"><b>Citation Request:</b></p>
+<p class=3D"normal">Please cite the UCI Machine Learning Repository and my =
+sources:
+<br>
+<br>  U. S. Department of Commerce, Bureau of the Census, Census Of Populat=
+ion And Housing 1990 United States: Summary Tape File 1a &amp; 3a (Computer=
+ Files),=20
+<br>
+<br>  U.S. Department Of Commerce, Bureau Of The Census Producer, Washingto=
+n, DC and Inter-university Consortium for Political and Social Research Ann=
+ Arbor, Michigan. (1992)=20
+<br>
+<br>  U.S. Department of Justice, Bureau of Justice Statistics, Law Enforce=
+ment Management And Administrative Statistics (Computer File) U.S. Departme=
+nt Of Commerce, Bureau Of The Census Producer, Washington, DC and Inter-uni=
+versity Consortium for Political and Social Research Ann Arbor, Michigan. (=
+1992)=20
+<br>
+<br>  U.S. Department of Justice, Federal Bureau of Investigation, Crime in=
+ the United States (Computer File) (1995)=20
+<br></p>
+
+</td></tr></tbody></table>
+
+
+<hr>
+
+<!-- OLD CODE:
+<p class=3D"normal"><font size=3D1>[1] Papers were automatically harvested =
+and associated with this data set, in collaboration with <a href=3D"http://=
+rexa.info"><font size=3D1>Rexa.info</font></a></font></p>
+-->
+
+
+
+<table cellpadding=3D"5" align=3D"center"><tbody><tr valign=3D"center">
+		<td><p class=3D"normal">Supported By:</p></td>
+        <td><img src=3D"https://archive.ics.uci.edu/ml/assets/nsfe.gif" hei=
+ght=3D"60"> </td>
+        <td><p class=3D"normal">&nbsp;In Collaboration With:</p></td>
+        <td><img src=3D"https://archive.ics.uci.edu/ml/assets/rexaSmall.jpg=
+"></td>
+</tr></tbody></table>
+
+<center>
+<span class=3D"normal">
+<a href=3D"https://archive.ics.uci.edu/ml/about.html">About</a>&nbsp;&nbsp;=
+||&nbsp;
+<a href=3D"https://archive.ics.uci.edu/ml/citation_policy.html">Citation Po=
+licy</a>&nbsp;&nbsp;||&nbsp;
+<a href=3D"https://archive.ics.uci.edu/ml/donation_policy.html">Donation Po=
+licy</a>&nbsp;&nbsp;||&nbsp;
+<a href=3D"https://archive.ics.uci.edu/ml/contact.html">Contact</a>&nbsp;&n=
+bsp;||&nbsp;
+<a href=3D"http://cml.ics.uci.edu/">CML</a>
+</span>
+</center>
+
+
+
+
+
+
+</body></html>
+------MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://archive.ics.uci.edu/ml/assets/ml.css
+
+@charset "utf-8";
+
+textarea { width: 95%; text-align: left; height: 49px; }
+
+.whitetext, .whitetext a, .whitetext a:visited { color: rgb(255, 255, 255);=
+ font-size: 10pt; font-family: Arial, Helvetica, sans-serif; }
+
+.normal, .normal a, .normal a:visited { font-size: 10pt; font-family: Arial=
+, Helvetica, sans-serif; color: rgb(18, 54, 84); }
+
+.heading, .heading a, .heading a:visited { font-size: 20pt; font-family: Ar=
+ial, Helvetica, sans-serif; color: rgb(18, 54, 84); }
+
+.small-heading, .small-heading a, .small-heading a:visited { font-size: 12p=
+t; font-family: Arial, Helvetica, sans-serif; color: rgb(18, 54, 84); }
+
+.big, .big a, .big a:visited { font-size: 14pt; font-family: Arial, Helveti=
+ca, sans-serif; color: rgb(18, 54, 84); }
+
+.almostbig, .almostbig a, .almostbig a:visited { font-size: 12pt; font-fami=
+ly: Arial, Helvetica, sans-serif; color: rgb(18, 54, 84); }
+
+.bigwhite, .bigwhite a, .bigwhite a:visited { font-size: 14pt; font-family:=
+ Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); }
+------MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ----
+Content-Type: application/x-httpd-php
+Content-Transfer-Encoding: base64
+Content-Location: https://archive.ics.uci.edu/ml/assets/logo.gif
+
+R0lGODlhgAF8APcAAP////f3+Pb2//H19e3v/e/v9+/v6e7u7+Xl9Obm7uTk5uHg797e5t3d39bW
+8dfV5dbW39HV3tTU2M7O38zMzP/MAMbG1cfG3MTEzPLFFb2+1fHCB76+xL29zuW+KLW2zbW1xq61
+xte2OeC1EK2tx62tvsyvSKuqr9CsFqWlvKakw7+mVM6nGKWjtZqdtZubvpqcra+cYLydH5WWtZmX
+prmXI5SUraSTaKqTJYyMtYyMrYyMpauNKpaJcYqInYSFpIODrISEnGmHpYp/dJmAM5KCMXt9nHp7
+pHR9lImAMnt7lYJ5N3R0nHt0eHJylGt1i4hzPHlzPGtri29qemZmmWprQWRkhWJji1hig2FeeFtb
+jVxhR1pag1FagWVYTVJUhU9bTEhaTFJSeklTelBRc0xMgURTUUtLe1NLVktKc0dHa0NDe0JCcitK
+V0NCZS9HWUFBaTU/aTs7cyVCWzo6ah4+XzMzZjIybhU7YRI8YDAwWikvYwg1ZAQ1ZSkpZCoqWQQ0
+ZgIzZgAzZiMjYiIhWiAgUhsaWhkZURkZShISQxAQVBAQSg8QPQkJSgcHQgEBQgABOwAAMwEAKQAA
+GwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAQUAP8ALAAAAACAAXwA
+AAj/AAUJHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp0ghQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWKsqFAKgq9evYMOK
+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
+ec533vOfB33oRT960pfe9GALCAA7
+
+------MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.google.com/logos/Logo_25blk.gif
+
+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
+9tlop6322hwFBAA7
+
+------MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ----
+Content-Type: application/x-httpd-php
+Content-Transfer-Encoding: base64
+Content-Location: https://archive.ics.uci.edu/ml/assets/nsfe.gif
+
+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
+yBwfiYoC5tTgvm8IAiAODwQAOw==
+
+------MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ----
+Content-Type: application/x-httpd-php
+Content-Transfer-Encoding: base64
+Content-Location: https://archive.ics.uci.edu/ml/assets/rexaSmall.jpg
+
+/9j/4AAQSkZJRgABAQEARwBHAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAfAIwDAREA
+AhEBAxEB/8QAHQAAAgICAwEAAAAAAAAAAAAABgkABwUIAwQKAv/EAC0QAAICAgIBBAICAgICAwAA
+AAQFAwYCBwEICQAREhQTFQoWIiMXIRgyM0FC/8QAHQEAAQUBAQEBAAAAAAAAAAAABQACAwQHBgEI
+Cf/EADgRAAICAQMDAgUDAwIEBwAAAAIDAQQFBhESABMhBxQVIiMxQQgyURZCYRckJTNSkRhDU3GB
+obH/2gAMAwEAAhEDEQA/AErdM+k22O9F32HRdS2jUtMK1ZrE3b93s+6rmVQaQmo652tQnMCbCMjf
+RjZiGNBpycjhxARgMCCpzY+I/jzkdKk2+xilGoJSqXsJx9tYqgoGZkuJbbSW/wCP536/WfWmtsVo
+Wlj7+Wq5a6GVyQYijVwtMb9515iW2AAa5PRyggUUDwk2EfEYCd+mT67/AI6/dzb689tqPeXQzaip
+UZivas9cdi3V2XLGGcXE+ADA6uayYiiG5Qc8TcCzS4T/AIcsZOY+MMseeSi9OXHRyRYoOGJ2klWJ
+ZET/ABMiuY36zTIfqM0RiWArK4PXeLa0O4peR08ikxgRPGTWFjJLIwgvEkMTG/jffrp7G/jz9zNO
+8Kudv9gfH/qjh7kTik52T2VaUfhzkFjhmZwqysmtV2LDITCTDMnEXmXKHHPHKTjHHn39eN07bRES
++zj0xO/Hu2ZXy2jeduS4ifHT8f8AqI0Xl+78JwGvsp2OMv8Ah2nFXezz34932+SZ2+XEuPLbfjO3
+26V93D6obL6PbeL0pt9xr+w2oai1PY0TfVtkLttOY1i7BGsK+UreHJ0MpmZAoE02XOAHAvMUg0wx
+JMM2OfoVbqNpP9u2Vkzis4lRcw2b+yYLYf8A8+3nrUtHatxmuMOObxCshXqldt4+U5SsFS6uzSMV
+vFqAc8QgDMdvqct4kTEZid2d2T+Pf3PT1KV1W9t9TtkX/jUYm8Quv1U2S+B3i71sYL+fh4jqtirI
+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
+
+------MultipartBoundary--MGvPECyl22eM0NLm8mktbooUFlIxs664iYQlehhjsZ------
