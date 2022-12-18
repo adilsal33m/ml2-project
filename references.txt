@@ -1,0 +1,37 @@
+PCA
+https://builtin.com/data-science/step-step-explanation-principal-component-analysis
+
+ICA
+https://www.youtube.com/watch?v=2WY7wCghSVI
+https://www.cs.helsinki.fi/u/ahyvarin/whatisica.shtml
+
+Kernel PCA
+https://en.wikipedia.org/wiki/Kernel_principal_component_analysis
+https://ml-explained.com/blog/kernel-pca-explained
+
+Dictionary Learning
+https://dictlearn.readthedocs.io/en/latest/tutorial.html
+
+Truncated SVD
+https://towardsdatascience.com/understanding-singular-value-decomposition-and-its-application-in-data-science-388a54be95d
+
+NMF
+https://medium.com/codex/what-is-non-negative-matrix-factorization-nmf-32663fb4d65
+
+Latent Dirichlet Allocation
+https://towardsdatascience.com/dimensionality-reduction-with-latent-dirichlet-allocation-8d73c586738c
+
+Locally Linear Embedding
+https://cs.nyu.edu/~roweis/lle/papers/lleintro.pdf
+
+MDS
+https://towardsdatascience.com/multidimensional-scaling-d84c2a998f72
+
+t-SNE
+https://www.enjoyalgorithms.com/blog/tsne-algorithm-in-ml
+
+Linear Discriminant Analysis
+https://sebastianraschka.com/Articles/2014_python_lda.html
+
+Spectral Embedding
+https://medium.com/mlearning-ai/demystifying-spectral-embedding-b2368bba580
